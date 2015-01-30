@@ -1,3 +1,72 @@
 /*
 Aqui escribe tu codigo de CSS.
 */
+
+
+body {
+    background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/tony.jpg");
+} 
+
+#cognits {
+	font-size: 20px;
+	height: 86px;
+	width: 400px;
+	position: fixed;
+	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/cognits-logo.png");
+}
+
+#name{
+	text-align: center;
+	height: 86px;
+	width: 1900px;
+	color: white;
+	position: fixed;
+	margin-left: 150px;
+}
+
+#inventory {
+	font-size: 20px;
+	height: 300px;
+	width: 555px;
+	margin-top: 150px;
+	margin-left: 610px;
+	position: fixed;
+	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/inventory.png");
+}
+
+#search {
+	font-size: 20px;
+	height: 300px;
+	width: 555px;
+	margin-top: 150px;
+	margin-left: 10px;
+	position: fixed;
+	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/search-engine.png");
+}
+
+#portafolio {
+	font-size: 20px;
+	height: 300px;
+	width: 555px;
+	margin-top: 540px;
+	margin-left: 10px;
+	position: relative;
+	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/portfolio.png");
+}
+
+#battle {
+	font-size: 20px;
+	height: 300px;
+	width: 555px;
+	margin-top: 550px;
+	margin-left: 610px;
+	position: relative;
+	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/battleship.png");
+}
+
+div{
+	text-align: center;
+	display: inline-block;
+}
+
+
