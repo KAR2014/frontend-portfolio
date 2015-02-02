@@ -4,34 +4,42 @@ Aqui escribe tu codigo de CSS.
 
 
 body {
-    background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/tony.jpg");
+    /*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/tony.jpg");*/
 } 
+
 
 #cognits {
 	font-size: 20px;
 	height: 86px;
 	width: 400px;
 	position: fixed;
+
+	/* Imagen en ubuntu*/
 	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/cognits-logo.png");
+
+	/*Imagen en Windows
+	background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/cognits-logo.png");*/
 }
 
-#name{
-	text-align: center;
-	height: 86px;
-	width: 1900px;
-	color: white;
+
+#titulo{
+	margin-top: 70px;
+	margin-left: 15px;
+	color:gray;
 	position: fixed;
-	margin-left: 150px;
-}
+	font-size: 26px;
 
+
+}
 #inventory {
 	font-size: 20px;
 	height: 300px;
 	width: 555px;
-	margin-top: 150px;
-	margin-left: 610px;
-	position: fixed;
+	margin-top: 65px;
+	margin-left: 660px;
+	position: relative;
 	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/inventory.png");
+	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/inventory.png");*/
 }
 
 #search {
@@ -39,19 +47,21 @@ body {
 	height: 300px;
 	width: 555px;
 	margin-top: 150px;
-	margin-left: 10px;
-	position: fixed;
+	margin-left: 60px;
+	position: relative;
 	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/search-engine.png");
+	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/search-engine.png");*/
 }
 
 #portafolio {
 	font-size: 20px;
 	height: 300px;
 	width: 555px;
-	margin-top: 540px;
-	margin-left: 10px;
+	margin-top: 400px;
+	margin-left: 60px;
 	position: relative;
 	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/portfolio.png");
+	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/portfolio.png");*/
 }
 
 #battle {
@@ -59,14 +69,83 @@ body {
 	height: 300px;
 	width: 555px;
 	margin-top: 550px;
-	margin-left: 610px;
-	position: relative;
+	margin-left: 660px;
+	position: static;
 	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/battleship.png");
+	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/battleship.png");*/
+}
+
+#factorial {
+	font-size: 36px;
+	border-radius: 10px;
+	color: white;
+	height: 300px;
+	width: 555px;
+	margin-top: 540px;
+	margin-left: 60px;
+	position: static;
+	background: blue;
+	text-align: center;
+}
+
+#countrys {
+	font-size: 36px;
+	border-radius: 10px;
+	color: white;
+	height: 300px;
+	width: 555px;
+	margin-top: 550px;
+	margin-left: 660px;
+	position: static;
+	background: yellow;
+	text-align: center;
+}
+
+#number {
+	font-size: 36px;
+	border-radius: 10px;
+	color: white;
+	height: 300px;
+	width: 555px;
+	margin-top: 640px;
+	margin-left: 60px;
+	position: static;
+	background: orange;
+	text-align: center;
+	margin: auto;
+}
+
+#cog1{
+	text-align: center;
+	height: 70px;
+	width: 1900px;
+	color: solid black;
+	position: fixed;
+	margin-left: 150px;
+	margin-top: 0px;
+	font-size: 30px;
+}
+#cog2{
+	text-align: center;
+	height: 70px;
+	width: 1900px;
+	color: solid black;
+	position: fixed;
+	margin-left: 150px;
+	margin-top: 45px;
+	font-size: 15px;
 }
 
 div{
-	text-align: center;
 	display: inline-block;
 }
 
+div > p{
+	font-family: verdana;
+	position: center;
+	text-align: center;
+}
 
+p{
+	/*text-align: center;*/
+}
