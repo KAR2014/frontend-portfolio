@@ -12,6 +12,7 @@ body {
 	font-size: 20px;
 	height: 86px;
 	width: 400px;
+	margin-left: 60px;
 	position: fixed;
 
 	/* Imagen en ubuntu*/
@@ -23,8 +24,8 @@ body {
 
 
 #titulo{
-	margin-top: 70px;
-	margin-left: 15px;
+	margin-top: 90px;
+	margin-left: 60px;
 	color:gray;
 	position: fixed;
 	font-size: 26px;
@@ -121,7 +122,7 @@ body {
 	width: 1900px;
 	color: solid black;
 	position: fixed;
-	margin-left: 150px;
+	margin-left: 120px;
 	margin-top: 0px;
 	font-size: 30px;
 }
@@ -131,7 +132,7 @@ body {
 	width: 1900px;
 	color: solid black;
 	position: fixed;
-	margin-left: 150px;
+	margin-left: 180px;
 	margin-top: 45px;
 	font-size: 15px;
 }
