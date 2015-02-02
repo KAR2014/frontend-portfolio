@@ -12,6 +12,7 @@ body {
 	font-size: 20px;
 	height: 86px;
 	width: 400px;
+	margin-top: 0px;
 	margin-left: 60px;
 	position: fixed;
 
@@ -29,91 +30,6 @@ body {
 	color:gray;
 	position: fixed;
 	font-size: 26px;
-
-
-}
-#inventory {
-	font-size: 20px;
-	height: 300px;
-	width: 555px;
-	margin-top: 65px;
-	margin-left: 660px;
-	position: relative;
-	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/inventory.png");
-	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/inventory.png");*/
-}
-
-#search {
-	font-size: 20px;
-	height: 300px;
-	width: 555px;
-	margin-top: 150px;
-	margin-left: 60px;
-	position: relative;
-	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/search-engine.png");
-	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/search-engine.png");*/
-}
-
-#portafolio {
-	font-size: 20px;
-	height: 300px;
-	width: 555px;
-	margin-top: 400px;
-	margin-left: 60px;
-	position: relative;
-	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/portfolio.png");
-	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/portfolio.png");*/
-}
-
-#battle {
-	font-size: 20px;
-	height: 300px;
-	width: 555px;
-	margin-top: 550px;
-	margin-left: 660px;
-	position: static;
-	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/battleship.png");
-	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/battleship.png");*/
-}
-
-#factorial {
-	font-size: 36px;
-	border-radius: 10px;
-	color: white;
-	height: 300px;
-	width: 555px;
-	margin-top: 540px;
-	margin-left: 60px;
-	position: static;
-	background: blue;
-	text-align: center;
-}
-
-#countrys {
-	font-size: 36px;
-	border-radius: 10px;
-	color: white;
-	height: 300px;
-	width: 555px;
-	margin-top: 550px;
-	margin-left: 660px;
-	position: static;
-	background: yellow;
-	text-align: center;
-}
-
-#number {
-	font-size: 36px;
-	border-radius: 10px;
-	color: white;
-	height: 300px;
-	width: 555px;
-	margin-top: 640px;
-	margin-left: 60px;
-	position: static;
-	background: orange;
-	text-align: center;
-	margin: auto;
 }
 
 #cog1{
@@ -136,6 +52,212 @@ body {
 	margin-top: 45px;
 	font-size: 15px;
 }
+
+#search {
+	height: 300px;
+	width: 555px;
+	margin-top: 150px;
+	margin-left: 60px;
+	position: relative;
+	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/search-engine.png");
+	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/search-engine.png");*/
+}
+.text1{
+	margin-top: 30px;
+	margin-left: 250px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.text2{
+	margin-top: -15px;
+	margin-left: 280px;
+	font-family: Arial;
+	color: #3399FF;
+}
+
+/* Todos los comandos del Inventory*/
+#inventory {
+	font-size: 20px;
+	height: 300px;
+	width: 555px;
+	margin-top: 65px;
+	margin-left: 660px;
+	position: relative;
+	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/inventory.png");
+	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/inventory.png");*/
+}
+
+.text3{
+	margin-top: 30px;
+	margin-left: 880px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.text4{
+	margin-top: -15px;
+	margin-left: 885px;
+	font-family: Arial;
+	color: #3399FF;
+}
+
+#portafolio {
+	font-size: 20px;
+	height: 300px;
+	width: 555px;
+	margin-top: 400px;
+	margin-left: 60px;
+	position: relative;
+	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/portfolio.png");
+	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/portfolio.png");*/
+}
+
+.text5{
+	margin-top: 30px;
+	margin-left: 280px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.text6{
+	margin-top: -15px;
+	margin-left: 287px;
+	font-family: Arial;
+	color: #3399FF;
+}
+
+#battle {
+	font-size: 20px;
+	height: 300px;
+	width: 555px;
+	margin-top: 550px;
+	margin-left: 660px;
+	position: static;
+	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/battleship.png");
+	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/battleship.png");*/
+}
+
+.text7{
+	margin-top: 30px;
+	margin-left: 880px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.text8{
+	margin-top: -15px;
+	margin-left: 889px;
+	font-family: Arial;
+	color: #3399FF;
+}
+
+#factorial {
+	font-size: 36px;
+	border-radius: 10px;
+	color: white;
+	height: 300px;
+	width: 555px;
+	margin-top: 540px;
+	margin-left: 60px;
+	position: static;
+	background: blue;
+	text-align: center;
+}
+#fac{
+	color:white;
+	font-family: Arial;
+	text-decoration: none;
+	text-align: center;
+
+}
+.text9{
+	margin-top: 30px;
+	margin-left: 280px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.text10{
+	margin-top: -15px;
+	margin-left: 283px;
+	font-family: Arial;
+	color: #3399FF;
+}
+
+#countrys {
+	font-size: 36px;
+	border-radius: 10px;
+	color: white;
+	height: 300px;
+	width: 555px;
+	margin-top: 550px;
+	margin-left: 660px;
+	position: static;
+	background: yellow;
+	text-align: center;
+}
+
+.text11{
+	margin-top: 30px;
+	margin-left: 820px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.text12{
+	margin-top: -15px;
+	margin-left: 900px;
+	font-family: Arial;
+	color: #3399FF;
+}
+
+#number {
+	height: 300px;
+	width: 555px;
+	margin-top: 540px;
+	margin-left: 60px;
+	position: static;
+	text-align: center;
+}
+
+.text13{
+	margin-top: 30px;
+	margin-left: 250px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.text14{
+	margin-top: -15px;
+	margin-left: 290px;
+	font-family: Arial;
+	color: #3399FF;
+}
+
+#profile{
+	height: 300px;
+	width: 555px;
+	margin-top: 550px;
+	margin-left: 660px;
+	position: relative;
+
+}
+
+.text15{
+	margin-top: 30px;
+	margin-left: 855px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.text16{
+	margin-top: -15px;
+	margin-left: 910px;
+	font-family: Arial;
+	color: #3399FF;
+}
+
 
 div{
 	display: inline-block;
