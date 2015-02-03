@@ -15,7 +15,6 @@ body {
 	margin-left: 60px;
 }
 
-
 #titulo{
 	margin-top: 60px;
 	margin-left: 60px;
@@ -216,8 +215,15 @@ body {
 	color: #3399FF;
 }
 
+#creditos{
+	font-size: 30px;
+}
+
 div > p{
 	font-family: verdana;
 	position: center;
 	text-align: center;
+}
+#git{
+	margin-left: 600px;
 }
