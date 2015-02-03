@@ -13,117 +13,97 @@ body {
 	width: 400px;
 	margin-top: 0px;
 	margin-left: 60px;
-	position: fixed;
 }
 
 
 #titulo{
-	margin-top: 110px;
+	margin-top: 60px;
 	margin-left: 60px;
 	color:gray;
-	position: fixed;
-	font-size: 30px;
+	font-size: 40px;
 }
 #cog1{
 	text-align: center;
-	height: 70px;
-	width: 1900px;
 	color: solid black;
-	position: fixed;
-	margin-left: 120px;
-	margin-top: 0px;
+	margin-left: 885px;
+	margin-top: -80px;
 	font-size: 30px;
 }
 #cog2{
 	text-align: center;
-	height: 70px;
-	width: 1900px;
 	color: solid black;
-	position: fixed;
-	margin-left: 180px;
-	margin-top: 45px;
+	margin-left: 1000px;
+	margin-top: -10px;
 	font-size: 15px;
 }
 
 #linea{
-	width: 1900px;
-	height: 2px;
+	margin-top: -30px;
 	margin-left: 60px;
 	color: gray;
 	font-size: 40px;
-	position: fixed;
 }
 
+/* ************************************************** Sub Div 1 **************************** */
 #search {
 	height: 300px;
 	width: 555px;
-	margin-top: 150px;
+	margin-top: -20px;
 	margin-left: 60px;
-	position: static;
-	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/search-engine.png");
-	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/search-engine.png");*/
 }
 .text1{
 	margin-top: 30px;
-	margin-left: 250px;
+	margin-left: -600px;
 	font-family: Arial;
 	font-size: 20px;
 }
 
 .text2{
 	margin-top: -15px;
-	margin-left: 280px;
+	margin-left: -600px;
 	font-family: Arial;
 	color: #3399FF;
 }
 
 /* Todos los comandos del Inventory*/
 #inventory {
-	font-size: 20px;
 	height: 300px;
 	width: 555px;
-	margin-top: 65px;
+	margin-top: -300px;
 	margin-left: 660px;
-	position: static;
-	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/inventory.png");
-	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/inventory.png");*/
 }
 
 .text3{
-	margin-top: 30px;
-	margin-left: 880px;
+	margin-top: -60px;
+	margin-left: 605px;
 	font-family: Arial;
 	font-size: 20px;
 }
 
 .text4{
 	margin-top: -15px;
-	margin-left: 885px;
+	margin-left: 610px;
 	font-family: Arial;
 	color: #3399FF;
 }
-
+/* ************************************************** Sub Div 2 **************************** */
 #portafolio {
-	font-size: 20px;
 	height: 300px;
 	width: 555px;
-	margin-top: 400px;
+	margin-top: -0px;
 	margin-left: 60px;
-	position: static;
-	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/portfolio.png");
-	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/portfolio.png");*/
 }
 
 .text5{
 	margin-top: 30px;
-	margin-left: 280px;
+	margin-left: -600px;
 	font-family: Arial;
 	font-size: 20px;
 }
 
 .text6{
 	margin-top: -15px;
-	margin-left: 287px;
+	margin-left: -600px;
 	font-family: Arial;
 	color: #3399FF;
 }
@@ -132,105 +112,84 @@ body {
 	font-size: 20px;
 	height: 300px;
 	width: 555px;
-	margin-top: 550px;
+	margin-top: -300px;
 	margin-left: 660px;
-	position: static;
-	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/battleship.png");
-	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/battleship.png");*/
-}
+	}
 
 .text7{
-	margin-top: 30px;
-	margin-left: 880px;
+	margin-top: -60px;
+	margin-left: 600px;
 	font-family: Arial;
 	font-size: 20px;
 }
 
 .text8{
 	margin-top: -15px;
-	margin-left: 889px;
+	margin-left: 600px;
 	font-family: Arial;
 	color: #3399FF;
 }
 
+/* ************************************************** Sub Div 3 **************************** */
 #factorial {
-	font-size: 36px;
-	border-radius: 10px;
-	color: white;
 	height: 300px;
 	width: 555px;
-	margin-top: 540px;
+	margin-top: 0px;
 	margin-left: 60px;
-	position: static;
-	text-align: center;
-}
-#fac{
-	color:white;
-	font-family: Arial;
-	text-decoration: none;
-	text-align: center;
-
 }
 .text9{
 	margin-top: 30px;
-	margin-left: 280px;
+	margin-left: -600px;
 	font-family: Arial;
 	font-size: 20px;
 }
 
 .text10{
 	margin-top: -15px;
-	margin-left: 283px;
+	margin-left: -600px;
 	font-family: Arial;
 	color: #3399FF;
 }
 
 #countrys {
-	font-size: 36px;
-	border-radius: 10px;
-	color: white;
 	height: 300px;
 	width: 555px;
-	margin-top: 550px;
+	margin-top: -300px;
 	margin-left: 660px;
-	position: static;
-	background: yellow;
-	text-align: center;
 }
 
 .text11{
-	margin-top: 30px;
-	margin-left: 820px;
+	margin-top: -60px;
+	margin-left: 600px;
 	font-family: Arial;
 	font-size: 20px;
 }
 
 .text12{
 	margin-top: -15px;
-	margin-left: 900px;
+	margin-left: 600px;
 	font-family: Arial;
 	color: #3399FF;
 }
 
+/* ************************************************** Sub Div 4 **************************** */
 #number {
 	height: 300px;
 	width: 555px;
-	margin-top: 540px;
+	margin-top: 0px;
 	margin-left: 60px;
-	position: static;
-	text-align: center;
 }
 
 .text13{
 	margin-top: 30px;
-	margin-left: 250px;
+	margin-left: -600px;
 	font-family: Arial;
 	font-size: 20px;
 }
 
 .text14{
 	margin-top: -15px;
-	margin-left: 290px;
+	margin-left: -600px;
 	font-family: Arial;
 	color: #3399FF;
 }
@@ -238,37 +197,27 @@ body {
 #profile{
 	height: 300px;
 	width: 555px;
-	margin-top: 550px;
+	margin-top: -300px;
 	margin-left: 660px;
-	position: relative;
 
 }
 
 .text15{
-	margin-top: 30px;
-	margin-left: 855px;
+	margin-top: -60px;
+	margin-left: 620px;
 	font-family: Arial;
 	font-size: 20px;
 }
 
 .text16{
 	margin-top: -15px;
-	margin-left: 910px;
+	margin-left: 625px;
 	font-family: Arial;
 	color: #3399FF;
-}
-
-
-div{
-	display: inline-block;
 }
 
 div > p{
 	font-family: verdana;
 	position: center;
 	text-align: center;
-}
-
-p{
-	/*text-align: center;*/
 }
