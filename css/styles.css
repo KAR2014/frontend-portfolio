@@ -2,7 +2,6 @@
 Aqui escribe tu codigo de CSS.
 */
 
-
 body {
     /*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/tony.jpg");*/
 } 
@@ -15,23 +14,16 @@ body {
 	margin-top: 0px;
 	margin-left: 60px;
 	position: fixed;
-
-	/* Imagen en ubuntu*/
-	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/cognits-logo.png");
-
-	/*Imagen en Windows
-	background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/cognits-logo.png");*/
 }
 
 
 #titulo{
-	margin-top: 90px;
+	margin-top: 110px;
 	margin-left: 60px;
 	color:gray;
 	position: fixed;
-	font-size: 26px;
+	font-size: 30px;
 }
-
 #cog1{
 	text-align: center;
 	height: 70px;
@@ -53,12 +45,21 @@ body {
 	font-size: 15px;
 }
 
+#linea{
+	width: 1900px;
+	height: 2px;
+	margin-left: 60px;
+	color: gray;
+	font-size: 40px;
+	position: fixed;
+}
+
 #search {
 	height: 300px;
 	width: 555px;
 	margin-top: 150px;
 	margin-left: 60px;
-	position: relative;
+	position: static;
 	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/search-engine.png");
 	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/search-engine.png");*/
 }
@@ -83,7 +84,7 @@ body {
 	width: 555px;
 	margin-top: 65px;
 	margin-left: 660px;
-	position: relative;
+	position: static;
 	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/inventory.png");
 	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/inventory.png");*/
 }
@@ -108,7 +109,7 @@ body {
 	width: 555px;
 	margin-top: 400px;
 	margin-left: 60px;
-	position: relative;
+	position: static;
 	background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/images/portfolio.png");
 	/*background-image: url("file:///C:/Documents and Settings/KEVINHERRERA16/Escritorio/frontend-portfolio/images/portfolio.png");*/
 }
@@ -161,7 +162,6 @@ body {
 	margin-top: 540px;
 	margin-left: 60px;
 	position: static;
-	background: blue;
 	text-align: center;
 }
 #fac{
