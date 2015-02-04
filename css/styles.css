@@ -93,16 +93,18 @@ body {
 	color: #3399FF;
 }
 
+/* Creditos del Nombre */
 #creditos{
 	font-size: 30px;
 }
 
+/* Todos los parrafos */
 div > p{
-	font-family: verdana;
 	position: center;
 	text-align: center;
 }
 
+/* Logo de Git */
 #git{
 	margin-left: 600px;
 }
