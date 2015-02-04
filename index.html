@@ -5,7 +5,6 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
  -->
  <html>
     <head>
-        <img/>
         <link rel='stylesheet' type='text/css' href='css/styles.css'/>
         <title>
             Frontend Portafolio_©KAR-KO
@@ -14,121 +13,110 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 
     <body>
         <!-- Logo Cognits -->
-        <div id= "cognits">
+        <div class= "cognits">
             <a href="http://www.cognits.co/apply">
-                <img src="images/cognits-logo.png">
+                <img src="images/cognits-logo.png" alt="Logo Cognits"/>
             </a>
         </div>
         
-        <p id ="cog1">COGNITS STUDENTS</p>
-        <p id ="cog2">FRONT-END PADAWAN</p>
-        <p id="linea">__________________________________________________________</p>
+        <p class ="cog1">COGNITS STUDENTS</p>
+        <p class ="cog2">FRONT-END PADAWAN</p>
+        <p class="linea">__________________________________________________________</p>
         <p></p>
 
-        <p id="titulo">Featured Work</p>
+        <p class="titulo">Featured Work</p>
 
         <div id="general"><!--Div General -->
 
-            <!--Inicia el Sub Div 1 -->
-            <div >
-                <!-- Div del Search Engine -->
-                <div class= "izquierda">
-                    <a href="https://github.com/KAR2014/python-search-engine">
-                        <img src="images/search-engine.png">
-                    </a>
-                </div>
-                <!-- Div del Inventory -->
-                <div class= "derecha">
-                    <a href="https://github.com/KAR2014/python-maquina-registradora">
-                        <img src="images/inventory.png">
-                    </a>
-                </div>
-                <!-- Textos Cuadros -->
-                <p class="text_izq_1">SEARCH ENGINE</p>
-                <p class="text_izq_2">FRAMEWORK</p>
-                <p class="text_der_1">INVENTORY</p>
-                <p class="text_der_2">FRAMEWORK</p>
+            <!-- Div del Search Engine -->
+            <div class= "izquierda">
+                <a href="https://github.com/KAR2014/python-search-engine">
+                    <img src="images/search-engine.png" alt="Search Engine"/>
+                </a>
+            </div>
+            <!-- Div del Inventory -->
+            <div class= "derecha">
+                <a href="https://github.com/KAR2014/python-maquina-registradora">
+                    <img src="images/inventory.png" alt="Maquina Registradora"/>
+                </a>
+            </div>
+            <!-- Textos Cuadros -->
+            <p class="text_izq_1">SEARCH ENGINE</p>
+            <p class="text_izq_2">FRAMEWORK</p>
+            <p class="text_der_1">INVENTORY</p>
+            <p class="text_der_2">FRAMEWORK</p>
+
+            <!-- Div del Portafolio -->
+            <div class= "izquierda">
+                <a href="https://github.com/KAR2014/frontend-portfolio">
+                    <img src="images/portfolio.png" alt="Frontend-Portafolio"/>
+                </a>
+            </div>
+            <!-- Div del Battleship -->
+            <div class= "derecha">
+                <a href="https://github.com/KAR2014/python-battleship">
+                    <img src="images/battleship.png" alt="BattleShip"/>
+                </a>
+            </div>
+            <!-- Textos Cuadros -->
+            <p class="text_izq_1">PORTFOLIO</p>
+            <p class="text_izq_2">BOOTSTRAP</p>
+            <p class="text_der_1">BATTLESHIP</p>
+            <p class="text_der_2">FRAMEWORK</p>
+
+            <!-- Div del Factorial -->
+            <div class= "izquierda">
+                <a href="https://github.com/KAR2014/python-factorial">
+                    <img src="images/factorial.png" alt="Factorial"/>
+                </a>
             </div>
 
-            <!--Inicia el Sub Div 2 -->
-            <div>
-                <!-- Div del Portafolio -->
-                <div class= "izquierda">
-                    <a href="https://github.com/KAR2014/frontend-portfolio">
-                        <img src="images/portfolio.png">
-                    </a>
-                </div>
-                <!-- Div del Battleship -->
-                <div class= "derecha">
-                    <a href="https://github.com/KAR2014/python-battleship">
-                        <img src="images/battleship.png">
-                    </a>
-                </div>
-                <!-- Textos Cuadros -->
-                <p class="text_izq_1">PORTFOLIO</p>
-                <p class="text_izq_2">BOOTSTRAP</p>
-                <p class="text_der_1">BATTLESHIP</p>
-                <p class="text_der_2">FRAMEWORK</p>
+            <!-- Div de Paises y Capitales -->
+            <div class= "derecha">
+                <a href="https://github.com/KAR2014/python-paises-capitales">
+                    <img src="images/capitals.png" alt="Paises y Capitales"/>
+                </a>
             </div>
+            <!-- Textos Cuadros -->
+            <p class="text_izq_1">FACTORIAL</p>
+            <p class="text_izq_2">FRAMEWORK</p>
+            <p class="text_der_1">COUNTRYS - CAPITALS</p>
+            <p class="text_der_2">FRAMEWORK</p>
 
-            <!--Inicia el Sub Div 3 -->
-            <div>
-                <!-- Div del Factorial -->
-                <div class= "izquierda">
-                    <a id="fac" href="https://github.com/KAR2014/python-factorial">
-                        <img src="images/factorial.png">
-                    </a>
-                </div>
-
-                <!-- Div de Paises y Capitales -->
-                <div class= "derecha">
-                    <a id="fac" href="https://github.com/KAR2014/python-paises-capitales">
-                        <img src="images/capitals.png">
-                    </a>
-                </div>
-                <!-- Textos Cuadros -->
-                <p class="text_izq_1">FACTORIAL</p>
-                <p class="text_izq_2">FRAMEWORK</p>
-                <p class="text_der_1">COUNTRYS - CAPITALS</p>
-                <p class="text_der_2">FRAMEWORK</p>
+            <!-- Div del guess a number -->
+            <div class= "izquierda">
+                <a href="https://github.com/KAR2014/python-guess-number">
+                    <img src="images/number.png" alt="Guess a Number"/>
+                </a>
             </div>
-
-            <!--Inicia el Sub Div 4 -->
-            <div>
-                <!-- Div del guess a number -->
-                <div class= "izquierda">
-                    <a href="https://github.com/KAR2014/python-guess-number">
-                        <img src="images/number.png">
-                    </a>
-                </div>
-                
-
-                <!-- My Profile -->
-                <div class= "derecha">
-                    <a href="https://github.com/KAR2014">
-                        <img src="images/search.png">
-                    </a>
-                </div>
-                <!-- Textos Cuadros -->
-                <p class="text_izq_1">GUESS A NUMBER</p>
-                <p class="text_izq_2">FRAMEWORK</p>
-                <p class="text_der_1">KEVIN *** KAR2014</p>
-                <p class="text_der_2">MY PAGE</p>
+            
+            <!-- My Profile -->
+            <div class= "derecha">
+                <a href="https://github.com/KAR2014">
+                    <img src="images/search.png" alt="Perfil KAR2014"/>
+                </a>
             </div>
+            <!-- Textos Cuadros -->
+            <p class="text_izq_1">GUESS A NUMBER</p>
+            <p class="text_izq_2">FRAMEWORK</p>
+            <p class="text_der_1">KEVIN *** KAR2014</p>
+            <p class="text_der_2">MY PROFILE</p>
 
             <!-- Creditos -->
-            <div id="creditos">
+            <div class="creditos">
                 <p>Created By: <p>
                 <p>Kevin Roberto Herrera Martinez</p>
             </div>
-            </div>
 
-        <!-- Logo Git -->    
-        <div id="git">
-            <a href="https://github.com/cognits">
-                <img src="images/github-logo.png"/>
-            </a>
-        </div>
-    </div> <!-- Termina el Div General -->
+            <!-- Logo Git -->    
+            <div class="git">
+                <a href="https://github.com/cognits">
+                    <img src="images/github-logo.png" alt="Logo Github"/>
+                </a>
+            </div>
+        </div> <!-- Termina el Div General -->
+        <audio controls autoplay>
+            <source src="bailando.mp3" type="audio/mpeg">
+        </audio>
     </body>
  </html>

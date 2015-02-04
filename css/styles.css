@@ -2,21 +2,16 @@
 Aqui escribe tu codigo de CSS.
 */
 
-body {
-    /*background-image: url("file:///home/cognitstarde/Escritorio/frontend-portfolio/tony.jpg");*/
-} 
-
 /*Logo de Cognits*/
-#cognits { 
+.cognits { 
 	font-size: 20px;
 	height: 86px;
 	width: 400px;
-	margin-top: 0px;
 	margin-left: 60px;
 }
 
 /*Featured Work*/
-#titulo{
+.titulo{
 	margin-top: 40px;
 	margin-left: 60px;
 	color:gray;
@@ -24,25 +19,25 @@ body {
 }
 
 /*Cognits Student*/
-#cog1{
+.cog1{
 	text-align: center;
-	color: solid black;
+	color: black;
 	margin-left: 885px;
 	margin-top: -80px;
 	font-size: 30px;
 }
 
 /*Front-end Padawan*/
-#cog2{
+.cog2{
 	text-align: center;
-	color: solid black;
+	color: black;
 	margin-left: 1000px;
 	margin-top: -10px;
 	font-size: 15px;
 }
 
 /*Linea*/
-#linea{
+.linea{
 	margin-top: -30px;
 	margin-left: 60px;
 	color: gray;
@@ -51,7 +46,6 @@ body {
 
 /* Cuadros de la izquierda */
 .izquierda { 
-	margin-top: 0px;
 	margin-left: 60px;
 }
 
@@ -94,17 +88,16 @@ body {
 }
 
 /* Creditos del Nombre */
-#creditos{
+.creditos{
 	font-size: 30px;
 }
 
 /* Todos los parrafos */
 div > p{
-	position: center;
 	text-align: center;
 }
 
 /* Logo de Git */
-#git{
+.git{
 	margin-left: 600px;
 }
