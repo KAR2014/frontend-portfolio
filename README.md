@@ -32,7 +32,7 @@ Debemos asegurar que se hayan instalado correctamente, corre los siguientes coma
 
 		Ten en cuenta que las versiones pueden ser superiores así que no te preocupes.
 
-Luego ejecuta estos comandos asegúrate  de hacerlo en la terminal:
+Luego ejecuta estos comandos asegúrate  de hacerlo en la terminal:
 
 		sudo apt-get install -y build-essential
 		sudo apt-get install curl
@@ -120,3 +120,6 @@ instrucciones que dan allí.
 
 Ahora toca ver el código de tus compañeros y dejar tus comentarios. Entra al
 proyecto de un compañero y haz 3 sugerencias de su código usando **Issues**.
+
+### Vea Mi Proyecto: 
+### http://kar2014.github.io/frontend-portfolio
